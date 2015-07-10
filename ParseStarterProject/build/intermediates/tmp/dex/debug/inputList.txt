@@ -1,0 +1,8 @@
+C:\Users\Button_ben\AndroidStudioProjects\Sportal\ParseStarterProject\build\intermediates\classes\debug
+C:\Users\Button_ben\AndroidStudioProjects\Sportal\ParseStarterProject\build\intermediates\pre-dexed\debug\bolts-android-1.2.0-96f13d90253c15467d1e52d93c4507eeda7893d7.jar
+C:\Users\Button_ben\AndroidStudioProjects\Sportal\ParseStarterProject\build\intermediates\pre-dexed\debug\ParseCrashReporting-1.9.2-01e25ea6a056cbffa13391b44162c4709ae1c1fb.jar
+C:\Users\Button_ben\AndroidStudioProjects\Sportal\ParseStarterProject\build\intermediates\pre-dexed\debug\picasso-2.5.0-2f8b3303fcd16b6933575a74f547bd513706dda2.jar
+C:\Users\Button_ben\AndroidStudioProjects\Sportal\ParseStarterProject\build\intermediates\pre-dexed\debug\sinch-android-rtc-3.6.1-1bffb97a48e2776dc28c949be237704d17e73d9f.jar
+C:\Users\Button_ben\AndroidStudioProjects\Sportal\ParseStarterProject\build\intermediates\pre-dexed\debug\classes-ea183e433786a73017ded8043f261734e21acf94.jar
+C:\Users\Button_ben\AndroidStudioProjects\Sportal\ParseStarterProject\build\intermediates\pre-dexed\debug\support-v4-18.0.0-e8a8e9fecbde9f6c0f748fbf6b8498f0c0995632.jar
+C:\Users\Button_ben\AndroidStudioProjects\Sportal\ParseStarterProject\build\intermediates\pre-dexed\debug\Parse-1.9.2-32daac2db23ca6e028c1e5358ec88776061e99fd.jar

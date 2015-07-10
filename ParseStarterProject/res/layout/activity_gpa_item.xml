@@ -1,0 +1,109 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin">
+
+
+
+    <TextView
+        android:text="@string/slash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_alignBaseline="@+id/inputmarks"
+        android:layout_alignBottom="@+id/inputmarks"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/weightage"
+        android:inputType="numberDecimal"
+        android:id="@+id/inputweightage"
+        android:layout_weight="0.60"
+        android:layout_marginTop="58dp"
+        android:layout_below="@+id/inputtotal"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/totalmarks"
+        android:inputType="numberDecimal"
+        android:id="@+id/inputtotal"
+        android:layout_alignTop="@+id/inputmarks"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/textView"
+        android:layout_toRightOf="@+id/textView" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="@string/marks"
+        android:id="@+id/inputmarks"
+        android:layout_marginTop="48dp"
+        android:layout_below="@+id/inputname"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/textView"
+        android:layout_toStartOf="@+id/textView" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/inputname"
+        android:hint="@string/assessment_name"
+        android:inputType="text"
+        android:layout_weight="0.41"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="57dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/correct"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="end|bottom"
+        android:background="@drawable/correct_button"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/tick"
+        android:textSize="30sp"
+        android:textColor="#fff"
+
+        android:layout_marginRight="43dp"
+        android:layout_marginEnd="43dp"
+        android:layout_alignBaseline="@+id/add"
+        android:layout_alignBottom="@+id/add"
+        android:layout_alignRight="@+id/inputmarks"
+        android:layout_alignEnd="@+id/inputmarks" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="end|bottom"
+        android:background="@drawable/new_button"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/plus"
+        android:textSize="30sp"
+        android:textColor="#fff"
+        android:layout_marginLeft="49dp"
+        android:layout_marginStart="49dp"
+        android:layout_below="@+id/inputweightage"
+        android:layout_alignLeft="@+id/inputtotal"
+        android:layout_alignStart="@+id/inputtotal"
+        android:layout_marginTop="89dp" />
+
+</RelativeLayout>

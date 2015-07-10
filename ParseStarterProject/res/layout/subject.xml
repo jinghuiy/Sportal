@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+
+        android:layout_width="150dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:padding="10dp"
+            android:text="@string/subject"
+            android:layout_weight="0.49"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:text="SUBNAME"
+            android:id="@+id/subject_name"
+            android:layout_weight="0.49"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="100dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:padding="10dp"
+            android:text="@string/percentage"
+            android:layout_weight="0.49"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:text="PERHERE"
+            android:id="@+id/percentage_name"
+            android:layout_weight="0.49"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="100dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:padding="10dp"
+            android:text="@string/gp"
+            android:layout_weight="0.49"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:text="GPHERE"
+            android:id="@+id/gp_name"
+            android:layout_weight="0.49"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
